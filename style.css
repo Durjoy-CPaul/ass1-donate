@@ -41,7 +41,7 @@ body {
 }
 
 .links {
-    margin-top: 90px;
+    margin-top: 20px;
     padding: 10px 20px;
     color: white;
     text-decoration: none;
@@ -83,5 +83,17 @@ input[type="radio"]:checked+label {
     border: 2px solid orangered;
     background-color: rgba(217, 104, 104, 0.333);
     color: rgb(242, 84, 56);
+
+}
+
+#othertaka {
+    margin-top: 90px;
+    border: none;
+    border-bottom: 2px solid gray;
+    text-align: center
+}
+
+#othertaka::marker {
+    border: none;
 
 }
