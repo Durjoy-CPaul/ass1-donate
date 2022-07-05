@@ -6,7 +6,7 @@ body {
 
 }
 
-.first-section {
+#first-section {
 
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, .7)), url("images/donation4.jpg");
     width: 100%;
@@ -19,7 +19,7 @@ body {
 
 }
 
-.first-section h1 {
+#first-section h1 {
     margin-top: 0px;
     padding: 100px 100px 5px;
     color: aliceblue;
@@ -28,12 +28,12 @@ body {
 
 }
 
-.first-section div {
+#first-section div {
     padding: 50px 20px;
     text-align: center;
 }
 
-.first-section p {
+#first-section p {
     color: white;
     font-size: 20px;
     margin-bottom: 30px;
@@ -46,4 +46,12 @@ body {
     text-decoration: none;
     background-color: rgb(255, 99, 71);
     border-radius: 5px;
+}
+
+#second-section {
+    text-align: center;
+}
+
+#second-div1 {
+    padding-top: 50px;
 }
