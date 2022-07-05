@@ -6,6 +6,7 @@ body {
 
 }
 
+
 #first-section {
 
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, .7)), url("images/donation4.jpg");
@@ -54,4 +55,33 @@ body {
 
 #second-div1 {
     padding-top: 50px;
+    margin-bottom: 80px;
+}
+
+#second-div1 p {
+    color: gray;
+}
+
+#form-section {
+    /* border: 5px solid gray; */
+    margin: 0px 30px;
+}
+
+.hidbox {
+    display: none;
+}
+
+.label-taka {
+    /* border: 5px solid red; */
+    background-color: rgba(206, 199, 199, 0.313);
+    padding: 30px 20px;
+    margin: 50px 10px;
+    font-weight: 600;
+}
+
+input[type="radio"]:checked+label {
+    border: 2px solid orangered;
+    background-color: rgba(217, 104, 104, 0.333);
+    color: rgb(242, 84, 56);
+
 }
