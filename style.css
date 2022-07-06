@@ -6,6 +6,10 @@ body {
 
 }
 
+p {
+    font-size: 13px;
+
+}
 
 #first-section {
 
@@ -60,6 +64,7 @@ body {
 
 #second-div1 p {
     color: gray;
+
 }
 
 #form-section {
@@ -89,11 +94,59 @@ input[type="radio"]:checked+label {
 #othertaka {
     margin-top: 90px;
     border: none;
-    border-bottom: 2px solid gray;
-    text-align: center
+    border-bottom: 2px solid rgba(128, 128, 128, 0.358);
+    text-align: center;
+    resize: none;
 }
 
-#othertaka::marker {
-    border: none;
+#third-section {
+    text-align: center;
+}
 
+#third-section p {
+    color: gray;
+}
+
+#third-flex {
+    display: flex;
+
+}
+
+.third-flex-items {
+    width: 30%;
+
+    margin: 2%;
+    padding: 10px 30px;
+
+}
+
+.third-flex-items img {
+    width: 20%;
+
+    padding-right: 80%;
+    padding-top: 20px;
+
+
+}
+
+.third-flex-items h3 {
+    text-align: left;
+
+
+}
+
+.third-flex-items p {
+    text-align: left;
+}
+
+#first-plan {
+    background-color: rgba(0, 136, 255, 0.084);
+}
+
+#second-plan {
+    background-color: rgba(255, 192, 203, 0.427);
+}
+
+#third-plan {
+    background-color: rgba(225, 202, 27, 0.229);
 }
