@@ -8,6 +8,7 @@ body {
 
 p {
     font-size: 13px;
+    color: gray;
 
 }
 
@@ -165,4 +166,16 @@ footer p {
     color: wheat;
     margin-bottom: 0;
     padding-bottom: 20px;
+}
+
+#getOurUpdate {
+    text-align: center;
+}
+
+#mail {
+
+    margin: 0% 20%;
+    width: 50%;
+    padding: 70px 20px;
+    background-color: rgba(222, 167, 66, 0.37);
 }
